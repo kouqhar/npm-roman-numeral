@@ -1,6 +1,6 @@
-# Roman Numeral converter
+# Roman Numeral Converter
 
-This is an application helps convert Roman numerals to numbers. Find Roman numerals.
+This is an application that helps convert Roman numerals to numbers. Find Roman numerals.
 
 ```js
 const { convertRomanNumeral } = require("roman-numeral");
@@ -20,7 +20,7 @@ console.log(romanNumeral);
 
 **Social Media**
 
-- [Instagram : Naphtali Duniya](https://www.instagram.com/_kouqhar) '**recommended**'
+- [Instagram : Naphtali Duniya](https://www.instagram.com/_kouqhar)
 
 * Via [Twitter : Naphtali Duniya](https://twitter.com/kouqhar)
 
@@ -92,7 +92,7 @@ $ npm test
 
 ## Donate
 
-I maintain this project in my free time, if it helped you please support my work via coinbase => 1C7QofCMbDm7XfzaxWGVvQ91DrjPQqzTQx or [blockchain](https://blockchain.com/btc/payment_request?address=1DkZt2quV7DtmbZtMycASBmo136MnyvZ3&amount=0.00210943&message=Support my works and boost my content creation. It's a minimum of 100usd.)
+I maintain this project in my free time, if it helped you please support my work via [blockchain](https://blockchain.com/btc/payment_request?address=1DkZt2quV7DtmbZtMycASBmo136MnyvZ3&amount=0.00210943&message=Support%20my%20works%20and%20boost%20my%20content%20creation.%20It's%20a%20minimum%20of%20100usd.) or **Coinbase - 1C7QofCMbDm7XfzaxWGVvQ91DrjPQqzTQx**
 , thanks a lot!
 
 ## License
