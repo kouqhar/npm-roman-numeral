@@ -1,0 +1,24 @@
+{
+  "name": "roman-numeral",
+  "version": "1.0.0",
+  "description": "This is an application helps convert Roman numerals to numbers. Find Roman numerals.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kouqhar/npm-roman-numeral.git"
+  },
+  "keywords": [
+    "roman",
+    "numeral",
+    "roman-numeral"
+  ],
+  "author": "Duniya Naphtali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kouqhar/npm-roman-numeral/issues"
+  },
+  "homepage": "https://github.com/kouqhar/npm-roman-numeral#readme"
+}
