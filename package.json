@@ -1,5 +1,5 @@
 {
-  "name": "roman-numeral",
+  "name": "cr-numeral",
   "version": "1.0.0",
   "description": "This is an application helps convert Roman numerals to numbers. Find Roman numerals.",
   "main": "app.js",
@@ -13,7 +13,9 @@
   "keywords": [
     "roman",
     "numeral",
-    "roman-numeral"
+    "convert",
+    "roman-numeral",
+    "convert-roman-numeral"
   ],
   "author": "Duniya Naphtali",
   "license": "MIT",

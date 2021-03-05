@@ -3,9 +3,9 @@
 This is an application that helps convert Roman numerals to numbers. Find Roman numerals.
 
 ```js
-const { convertRomanNumeral } = require("roman-numeral");
+const { convertRomanNumeral } = require("cr-numeral");
 // OR
-const crn = require("roman-numeral").convertRomanNumeral;
+const crn = require("cr-numeral").convertRomanNumeral;
 
 const number = 2021;
 const romanNumeral = convertRomanNumeral(number);
@@ -42,7 +42,7 @@ Installation is done using the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```bash
-$ npm install roman-numeral
+$ npm install cr-numeral
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ String.convertRomanNumeral(2025));
 
 ```javascript
 // NodeJS
-> const { ConertRomanNumeral } = require('roman-numeral');
+> const { ConertRomanNumeral } = require('cr-numeral');
 
 > convertRomanNumeral(2021));
 "MMXXI"
