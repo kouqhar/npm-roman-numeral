@@ -1,6 +1,6 @@
 # Roman Numeral Converter
 
-This is an application that helps convert Roman numerals to numbers. Find Roman numerals.
+This is an application that helps convert numbers to Roman numerals. Find Roman numerals.
 
 ```js
 const { convertRomanNumeral } = require("cr-numeral");
