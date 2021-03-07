@@ -1,15 +1,23 @@
 # Roman Numeral Converter
 
-This is an application that helps convert numbers to Roman numerals. Find Roman numerals.
+This is an application that helps convert numbers to Roman numerals or vice versa. Find Roman numerals or Numbers.
 
 ```js
-const { convertRomanNumeral } = require("cr-numeral");
+const {
+  convertNumberToRoman: cnr,
+  convertRomanToNumber: crn,
+} = require("cr-numeral");
 // OR
-const crn = require("cr-numeral").convertRomanNumeral;
+const cnr = require("cr-numeral").convertNumberToRoman;
+const crn = require("cr-numeral").convertRomanToNumber;
 
 const number = 2021;
-const romanNumeral = convertRomanNumeral(number);
-console.log(romanNumeral);
+const numeral = "MMMXXV"; // Case-insensitive
+
+const toRoman = cnr(number);
+const toNumber = cnr(numeral);
+
+console.log(toRoman, toNumber);
 ```
 
 # Contact Me :rocket:
@@ -45,38 +53,72 @@ Installation is done using the
 $ npm install cr-numeral
 ```
 
+## Features
+
+- Convert a Number to a Roman Numeral => convertNumberToRoman(number)
+- Convert a Roman Numeral to a Number => convertRomanToNumber("Numeral")
+
 ## Usage
 
 ```javascript
 // Browser
-String.convertRomanNumeral(2025));
+// Convert Number to Roman Numeral
+String.convertNumberToRoman(2025));
 "MMXXV"
+
+// Convert Roman Numeral to Number
+// Case-insensitive
+String.convertRomanToNumber("MMXXI"));
+"2021"
 ```
+
+#### Converting a Number to Roman Numeral
 
 ```javascript
 // NodeJS
-> const { ConertRomanNumeral } = require('cr-numeral');
+> const { convertNumberToRoman } = require('cr-numeral');
+// OR
+> const convertNumberToRoman = require('cr-numeral').convertNumberToRoman;
 
-> convertRomanNumeral(2021));
+> convertNumberToRoman(2021));
 "MMXXI"
 
-> convertRomanNumeral(20000));
-"MMMMMMMMMMMMMMMMMMMM"
+> convertNumberToRoman(-2021)); // Can not convert a negative number or zero
+"Can not convert Zero or negative numbers!!!"
 
-> convertRomanNumeral("name"));
-"Can not convert Zero or negative numbers"
+> convertNumberToRoman("na256m"));
+"You must provide only valid numbers!!!"
 
-> convertRomanNumeral("na256m"));
-"Can not convert Zero or negative numbers"
+> convertNumberToRoman(false));
+"Cannot use Boolean values!!!"
 
-> convertRomanNumeral("rotate"));
-"Can not convert Zero or negative numbers"
+> convertNumberToRoman(true));
+"Cannot use Boolean values!!!"
+```
 
-> convertRomanNumeral(false));
-"Can not convert Zero or negative numbers"
+#### Converting Roman Numeral to a Number
 
-> convertRomanNumeral(true));
-"I" // true evaluates to 1 and 1 equals I
+```javascript
+// NodeJS
+> const { convertRomanToNumber } = require('cr-numeral');
+// OR
+> const convertRomanToNumber = require('cr-numeral').convertRomanToNumber;
+
+> convertRomanToNumber("MMXXI"));
+"2021"
+
+> convertRomanToNumber("na256m"));
+"Provide a valid roman character!!!
+Cause these are invalid roman numerals : [ N,A,2,5,6 ]"
+
+> convertRomanToNumber(6355));
+"You must provide only valid strings!!!"
+
+> convertRomanToNumber(false));
+"Cannot use Boolean values!!!"
+
+> convertRomanToNumber(true));
+"Cannot use Boolean values!!!"
 ```
 
 ## [Changelog](/CHANGELOG.md)
