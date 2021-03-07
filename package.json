@@ -1,7 +1,7 @@
 {
   "name": "cr-numeral",
   "version": "1.1.1",
-  "description": "This is an application helps convert numbers to Roman numerals. Find Roman numerals.",
+  "description": "This is an application that helps convert numbers to Roman numerals or vice versa. Find Roman numerals or Numbers.",
   "main": "app.js",
   "scripts": {
     "test": "jest --watchAll"

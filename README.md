@@ -55,13 +55,14 @@ $ npm install cr-numeral
 
 ## Features
 
-- Convert a Number to a Roman Numeral => convertNumberToRoman(number)
-- Convert a Roman Numeral to a Number => convertRomanToNumber("Numeral")
+- Convert a Number to a Roman Numeral `convertNumberToRoman(number)`
+- Convert a Roman Numeral to a Number `convertRomanToNumber("Numeral")`
 
 ## Usage
 
+#### Browser
+
 ```javascript
-// Browser
 // Convert Number to Roman Numeral
 String.convertNumberToRoman(2025));
 "MMXXV"
@@ -72,10 +73,11 @@ String.convertRomanToNumber("MMXXI"));
 "2021"
 ```
 
+### NodeJS
+
 #### Converting a Number to Roman Numeral
 
 ```javascript
-// NodeJS
 > const { convertNumberToRoman } = require('cr-numeral');
 // OR
 > const convertNumberToRoman = require('cr-numeral').convertNumberToRoman;
@@ -99,7 +101,6 @@ String.convertRomanToNumber("MMXXI"));
 #### Converting Roman Numeral to a Number
 
 ```javascript
-// NodeJS
 > const { convertRomanToNumber } = require('cr-numeral');
 // OR
 > const convertRomanToNumber = require('cr-numeral').convertRomanToNumber;
@@ -108,8 +109,8 @@ String.convertRomanToNumber("MMXXI"));
 "2021"
 
 > convertRomanToNumber("na256m"));
-"Provide a valid roman character!!!
-Cause these are invalid roman numerals : [ N,A,2,5,6 ]"
+"Provide a valid roman character!!!"
+"Cause these are invalid roman numerals : [ N,A,2,5,6 ]"
 
 > convertRomanToNumber(6355));
 "You must provide only valid strings!!!"
