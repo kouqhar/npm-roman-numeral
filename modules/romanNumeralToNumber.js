@@ -22,7 +22,7 @@ const convertRomanToNumber = (numeral) => {
     let pluralChar = invalidNumber.length > 1 ? "s" : "";
     const pluralForm = invalidNumber.length > 1 ? "these are" : "this is an";
     return `Provide a valid roman character!!!\nCause ${pluralForm} invalid roman numeral${pluralChar} : [ ${invalidNumber} ]`;
-  } else return number.reduce((acc, cur) => acc + cur);
+  } else return validNumber.reduce((acc, cur) => acc + cur);
 };
 
 module.exports = { convertRomanToNumber };

@@ -15,12 +15,12 @@ const number = 2021;
 const numeral = "MMMXXV"; // Case-insensitive
 
 const toRoman = cnr(number);
-const toNumber = cnr(numeral);
+const toNumber = crn(numeral);
 
 console.log(toRoman, toNumber);
 ```
 
-# Contact Me :rocket:
+# Contact :rocket:
 
 **Email**
 
