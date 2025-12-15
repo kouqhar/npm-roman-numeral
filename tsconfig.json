@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
@@ -9,12 +9,10 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    // "allowImportingTsExtensions": true,
-    "noEmit": true,
-    // "declaration": true,
+    "declaration": true,
     "outDir": "./dist",
     "rootDir": "./"
   },
-  "include": ["**/*.ts", "jest.config.js", "packageTest/index.js"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["app.ts", "modules/**/*.ts"],
+  "exclude": ["node_modules", "dist", "test", "packageTest"]
 }
