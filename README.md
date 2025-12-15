@@ -28,13 +28,13 @@ console.log(toRoman, toNumber);
 
 **Social Media**
 
-- [Instagram : Naphtali Duniya](https://www.instagram.com/_kouqhar)
+- [Instagram : Naphtali Duniya](https://www.instagram.com/kouqhar)
 
 * Via [Twitter : Naphtali Duniya](https://twitter.com/kouqhar)
 
 **Telephone**
 
-- Call +234 (0)81 664 661 73
+- Call +44 (0)787 100 2267
 
 ## Installation
 
@@ -135,8 +135,7 @@ $ npm test
 
 ## Donate
 
-I maintain this project in my free time, if it helped you please support my work via [blockchain](https://blockchain.com/btc/payment_request?address=1DkZt2quV7DtmbZtMycASBmo136MnyvZ3&amount=0.00210943&message=Support%20my%20works%20and%20boost%20my%20content%20creation.%20It's%20a%20minimum%20of%20100usd.) or **Coinbase - 1C7QofCMbDm7XfzaxWGVvQ91DrjPQqzTQx**
-, thanks a lot!
+I maintain this project in my free time, if it helped you please support my work via [Revolut](https://revolut.me/kouqhar?currency=GBP&amount=2000&note=I%20maintain%20this%20project%20during%20my%20free%20time.%20I%27d%20appreciate%20it), thanks a lot!
 
 ## License
 

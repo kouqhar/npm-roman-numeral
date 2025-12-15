@@ -1,1 +1,17 @@
 node_modules
+./dist
+.env
+.DS_Store
+.vscode
+coverage
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.pnp.js
+.pnp.cjs    
+*.tsbuildinfo
+.idea/
+*.log
+.cache/
+*.tgz
+.vs/

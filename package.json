@@ -4,6 +4,7 @@
   "description": "This is an application that helps convert numbers to Roman numerals or vice versa. Find Roman numerals or Numbers.",
   "main": "app.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest --watchAll"
   },
   "repository": {
@@ -11,13 +12,53 @@
     "url": "git+https://github.com/kouqhar/npm-roman-numeral.git"
   },
   "keywords": [
-    "roman",
-    "convert",
-    "numeral",
-    "convert",
-    "cr",
-    "roman-numeral",
-    "convert-roman-numeral"
+    "nodejs",
+    "npm",
+    "javascript",
+    "typescript",
+    "web development",
+    "backend",
+    "frontend",
+    "api",
+    "library",
+    "framework",
+    "open source",
+    "developer tools",
+    "build tools",
+    "automation",
+    "testing",
+    "cli",
+    "react",
+    "angular",
+    "vue",
+    "express",
+    "database",
+    "mongodb",
+    "postgresql",
+    "graphql",
+    "restful api",
+    "microservices",
+    "cloud",
+    "aws",
+    "azure",
+    "google cloud",
+    "devops",
+    "docker",
+    "kubernetes",
+    "ci-cd",
+    "performance optimization",
+    "scalability",
+    "security",
+    "authentication",
+    "authorization",
+    "data visualization",
+    "machine learning",
+    "artificial intelligence",
+    "blockchain",
+    "cryptography",
+    "web3",
+    "ethereum",
+    "smart contracts"
   ],
   "author": "Duniya Naphtali",
   "license": "MIT",
@@ -26,6 +67,11 @@
   },
   "homepage": "https://github.com/kouqhar/npm-roman-numeral#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
   }
 }
