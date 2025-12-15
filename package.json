@@ -1,6 +1,6 @@
 {
   "name": "cr-numeral",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "This is an application that helps convert numbers to Roman numerals or vice versa. Find Roman numerals or Numbers.",
   "main": "app.ts",
   "scripts": {
