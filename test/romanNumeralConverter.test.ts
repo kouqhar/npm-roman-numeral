@@ -1,4 +1,4 @@
-import { convertNumberToRoman } from "../app.ts";
+import { convertNumberToRoman } from "../app";
 
 const testNumber: number = 2021;
 
