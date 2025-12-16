@@ -1,6 +1,6 @@
 {
   "name": "cr-numeral",
-  "version": "1.2.7",
+  "version": "2.0.0",
   "description": "cr-numeral is a lightweight and versatile npm package designed to effortlessly convert numbers to Roman numerals and vice versa. Whether you're building educational tools, historical applications, or need Roman numeral functionality in your project, cr-numeral provides a simple and efficient solution.",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",
