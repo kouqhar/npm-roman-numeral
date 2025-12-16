@@ -6,3 +6,4 @@ src/
 tsconfig.json
 jest.config.js
 .github/
+demo.ts

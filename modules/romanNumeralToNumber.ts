@@ -2,7 +2,7 @@ import { roman, numbers } from "./algorithm/algorithm";
 
 const convertRomanToNumber = (numeral: string | boolean): string | number => {
   const regExp = /(CM|CD|XC|XL|IX|IV|[A-Z])/gi;
-  const validNumbers: number[] = [];
+  const validNumerals: number[] = [];
   const invalidNumbers: string[] = [];
 
   if (typeof numeral === "boolean")
@@ -17,7 +17,7 @@ const convertRomanToNumber = (numeral: string | boolean): string | number => {
   expression.forEach((elem) => {
     const romanIndex = roman.indexOf(elem);
     if (romanIndex !== -1) {
-      validNumbers.push(numbers[romanIndex]);
+      validNumerals.push(numbers[romanIndex]);
     } else {
       invalidNumbers.push(elem);
     }
@@ -29,7 +29,7 @@ const convertRomanToNumber = (numeral: string | boolean): string | number => {
     return `Provide a valid Roman character!\nCause ${pluralForm} invalid Roman numeral${pluralChar}: [ ${invalidNumbers.join(", ")} ]`;
   }
 
-  return validNumbers.reduce((acc, cur) => acc + cur, 0);
+  return validNumerals.reduce((acc, cur) => acc + cur, 0);
 };
 
 export { convertRomanToNumber };

@@ -1,7 +1,7 @@
 {
   "name": "cr-numeral",
   "version": "1.2.7",
-  "description": "This is an application that helps convert numbers to Roman numerals or vice versa. Find Roman numerals or Numbers.",
+  "description": "cr-numeral is a lightweight and versatile npm package designed to effortlessly convert numbers to Roman numerals and vice versa. Whether you're building educational tools, historical applications, or need Roman numeral functionality in your project, cr-numeral provides a simple and efficient solution.",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",
   "files": [
@@ -9,6 +9,8 @@
   ],
   "scripts": {
     "build": "tsc",
+    "start": "node ./dist/app.js",
+    "dev": "tsc && node ./dist/app.js",
     "test": "jest --watchAll"
   },
   "repository": {
