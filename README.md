@@ -39,7 +39,11 @@ $ bun add cr-numeral
 Once the package is installed, you can import the library using `import` or `require` approach:
 
 ```js
-import { convertRomanToNumber, convertNumberToRoman, numeralValidation } from 'cr-numeral';
+import {
+  convertRomanToNumber,
+  convertNumberToRoman,
+  numeralValidation,
+} from "cr-numeral";
 ```
 
 ### CDN
@@ -59,25 +63,24 @@ Using unpkg CDN:
 ## Usage
 
 > [!NOTE]
-> THis package is CAse-INsenSITIVe
+> THe NuMErAL arGUmeNtS aRe CAse-INsenSITIVe
 
 #### Browser
 
 ```javascript
-
 // Convert Number to Roman Numeral
 String.convertNumberToRoman(2025);
-"MMXXV"
+("MMXXV");
 
 // Convert Roman Numeral to Number
 String.convertRomanToNumber("MMXXI");
-"2021"
+("2021");
 
 // Validate Roman Numeral
 const validator = String.numeralValidation("MMX3X2cV8b");
-validator.isStrictValid // false
-validator.isLooseValid // true
-validator.isValid // true
+validator.isStrictValid; // false
+validator.isLooseValid; // true
+validator.isValid; // true
 ```
 
 #### Quick use
@@ -98,7 +101,7 @@ const numeral = "MMMXXV"; // Case-insensitive
 
 const toRoman = cnr(number);
 const toNumber = crn(numeral);
-const validateNumeral = nvl(numeral)
+const validateNumeral = nvl(numeral);
 
 console.log(toRoman, toNumber, validateNumeral);
 ```
@@ -206,7 +209,7 @@ console.log(isValid) // true
 
 - `inputCount` - How many input characters were provided
 
-- `hasInvalidNumerals`  - Checks if there are any invalid characters
+- `hasInvalidNumerals` - Checks if there are any invalid characters
 
 - `hasDigits` - Checks if there are any digits
 
