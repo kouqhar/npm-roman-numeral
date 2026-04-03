@@ -51,13 +51,13 @@ import {
 Using jsDelivr CDN (ES5 UMD browser module):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/cr-numeral@1.2.7/dist/app.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cr-numeral@2.1.0/dist/app.min.js"></script>
 ```
 
 Using unpkg CDN:
 
 ```html
-<script src="https://unpkg.com/cr-numeral@1.2.7/dist/app.min.js"></script>
+<script src="https://unpkg.com/cr-numeral@2.1.0/dist/app.min.js"></script>
 ```
 
 ## Usage
@@ -111,6 +111,7 @@ console.log(toRoman, toNumber, validateNumeral);
 - Convert a Number to a Roman Numeral `convertNumberToRoman(number)`
 - Convert a Roman Numeral to a Number `convertRomanToNumber("Numeral")`
 - Validate a Roman Numeral input `numeralValidation("Numeral")`
+- Support international numeric inputs when converting numbers (e.g. `2,021`, `20,21` for Indian grouping, and `2.021`)
 
 ### NodeJS
 

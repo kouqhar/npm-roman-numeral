@@ -31,4 +31,24 @@ describe("Roman Numeral Conversion", () => {
     const resultType: string = typeof romanNumeral;
     expect(resultType).toBe("string");
   });
+
+  it("should support comma separated international format", () => {
+    const romanNumeral: string = convertNumberToRoman("2,021");
+    expect(romanNumeral).toBe("MMXXI");
+  });
+
+  it("should support Indian numbering format", () => {
+    const romanNumeral: string = convertNumberToRoman("20,21");
+    expect(romanNumeral).toBe("MMXXI");
+  });
+
+  it("should support European thousands separators", () => {
+    const romanNumeral: string = convertNumberToRoman("2.021");
+    expect(romanNumeral).toBe("MMXXI");
+  });
+
+  it("should reject malformed formatted strings", () => {
+    const romanNumeral: string = convertNumberToRoman("20,2A1");
+    expect(romanNumeral).toBe("You must provide only valid numbers!!!");
+  });
 });
